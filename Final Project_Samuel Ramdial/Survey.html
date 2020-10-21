@@ -1,0 +1,180 @@
+<!DOCTYPE html!>
+<head>
+	<title>Workouts</title>
+	<meta charset="UTF-8">
+	<title>Intro to Fitness</title>
+	<link href="https://fonts.googleapis.com/css?
+	family=Alfa+Slab+One|Open+Sans" rel="stylesheet">
+</head>
+<html>
+<body>
+<section>
+<style>
+body, html {
+	margin: 0;
+	padding: 0;
+}
+header {
+	width: 100%;
+	height: 70px;
+	background-color: #282828;
+}
+.title h1 {
+	position: absolute;
+	padding: 3px;
+	float: left;
+	margin-left: 2%';
+	margin-top: 10px;
+	font-family: 'Alfa Slab One', cursive;
+	color: #39ca74;
+}
+span {
+	color: #ffffff;
+}
+.list ul {
+	width: auto;
+	float: right;
+	margin-top: 8px;
+}
+.list li { 
+	display: inline-block;
+	padding: 15px 30px;
+}
+.list a {
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2vw;
+}
+.list a: hover{
+	color: #F0c330;
+	transition: 0.5s;
+}
+</style>
+<header>
+	<div class="title">
+		<h1>INTRO<span>TOFITNESS</span></h1>
+	</div>
+	<nav>
+		<div class="list">
+		<ul>
+			<li><a href="Home.html">Home</a></li>
+			<li><a href="Workouts.html">Workouts</a></li>
+			<li><a href="meals.html">Meals</a></li>
+			<li><a href="survey.html">Survey</a></li>
+		</ul>
+		</div>
+	</nav>
+</header>
+</section>
+
+<section>
+<style>
+body {
+	background-color: #A9A9A9;
+	font-family: 'Alfa Slab One', cursive;
+	text-align: center;
+	margin: 0;
+}
+form {
+	background-color: #fff;
+	box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+	border-radius: 2px;
+	padding: 30px 20px;
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+.form-control {
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.form-control label{
+	display: block;
+	margin-bottom: 6px;
+}
+
+.form-control input {
+	border: 1px solid #777;
+	border-radius: 2px;
+	font-size: 14px;
+	padding: 10px;
+	display: block;
+	width: 95%;
+
+.form-group {
+	margin: 0 auto 1.25rem auto;
+	padding: 0.25 rem;
+}
+.submit-button {
+	display: block;
+	width: 100%;
+	padding: 0.75rem;
+	background: #000000;
+	color: inherit;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.reset-button {
+	display: block;
+	width: 100%;
+	padding: 0.75rem;
+	background: #000000;
+	color: inherit;
+	border-radius: 2px;
+	cursor: pointer;
+}
+</style>
+</section>
+
+<section>
+<h2 id="title2">
+	Intro to Fitness Survey Form
+</h2>
+<p id="Description"><i>Thank you for taking the time to help us improve our platform</i></p>
+
+<form id="survey-form">
+	<div class="form-control">
+		<label for="first-name" id="label-first-name">First Name</label>
+		<input type="text" name="first-name" id="first-name" placeholder= "Enter your First Name" />
+	</div>
+	
+	<div class="form-control">
+		<label for="last-name" id="label-last-name">Last Name</label>
+		<input type="text" name="last-name" id="last-name" placeholder="Enter your Last Name" />
+	</div>
+	
+	<div class="form-control">
+		<label for="workouts-meals" id="label-workouts-meals">Workout/Meal Ideas</label>
+		<input type="text" name="workouts-meals" id="workouts-meals" placeholder="Enter any workout/meal ideas you may have" />
+	</div>
+	
+	<div class="form-control">
+		<label for="questions" id="label-questions">Questions</label>
+		<input type="text" name="questions" id="questions" placeholder="Enter any questions you may have"/>
+	</div>
+	
+	<div class="form-control">
+		<label for="comments" id="label-comments">Comments</label>
+		<input type="text" name="comments" id="comments" placeholder="Please enter any comments you may have"/>
+	</div>
+	
+	<div class="form-group">
+		<button type="Submit" id="submit"
+	class= "submit-button">
+		Submit
+		</button>
+	</div>
+	
+	<div class="form-group">
+		<button type="Reset" id="reset"
+	class="reset-button">
+		Reset
+		</button>
+	</div>
+</form>
+</section>
+</body>
+</html>
